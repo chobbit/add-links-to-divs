@@ -1,0 +1,27 @@
+// similar behavior as an HTTP redirect
+$(document).ready(function(){
+    $('#contShop').click(function(){
+        window.location.replace("http://stackoverflow.com");
+        return false;
+    });
+});
+
+
+
+// similar behavior as an HTTP redirect
+$(document).ready(function(){
+    $('#contShop').click(function(){
+        window.location.replace("http://stackoverflow.com");
+        return false;
+    });
+});
+
+
+
+// similar behavior as clicking on a link
+$(document).ready(function(){
+    $('#contShop').click(function(){
+        window.location.href = "http://stackoverflow.com";
+        return false;
+    });
+});
